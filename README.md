@@ -6,6 +6,6 @@ Architecture diagram for project is shown below.
 
 Architechture diagram for Blue-Green deployment is shown below.
 
-![image](https://github.com/user-attachments/assets/6ddf0b3a-5aa7-4e09-bd5e-28c9bde929b0)
+![image](https://github.com/user-attachments/assets/7794d670-bff9-4a4a-91a0-2b10135e5e00)
 ![image](https://github.com/user-attachments/assets/dd814476-2663-4913-afc4-77fb6e562a72)
 ![image](https://github.com/user-attachments/assets/99eb33b3-3ec7-4a66-a879-bbaf569ff035)
