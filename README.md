@@ -34,5 +34,23 @@ We can get the rollout and list the multiple versions of it as shown in the scre
 ![image](https://github.com/user-attachments/assets/4276336d-ec77-4ca8-9e6a-902690b41ca7)
 
 For checking purpose I have changed the service type of bankapp from ClusterIP to LoadBalancer as shown in the screenshot attached below.
-![image](https://github.com/user-attachments/assets/8fb3b635-62dd-4466-afcf-2578dd389346)
 ![image](https://github.com/user-attachments/assets/f948c4fc-1b56-4164-b8a1-e360e01b5275)
+![image](https://github.com/user-attachments/assets/c6ca5337-430f-4355-9105-b08085f85ed7)
+
+After checking when you get assured Application is working fine, changed the service type from LoadBalancer to ClusterIP as shown in the screenshot attached below.
+![image](https://github.com/user-attachments/assets/05557e76-3f68-484c-8381-18ecfc08e6be)
+
+Finally promote the rollout as shown in the screenshot attached below.
+![image](https://github.com/user-attachments/assets/69e4c9ee-86bc-4159-807d-ca41d2c90145)
+
+List the Rollout for stable and preview status as shown in the screenshot attached below.
+![image](https://github.com/user-attachments/assets/d4f1695e-9e36-412a-af98-04d0e70ce105)
+
+Finally access the application as shown in the screenshot attached below.
+![image](https://github.com/user-attachments/assets/f8e6cca0-6263-494b-bacd-c7daabedb9b3)
+![image](https://github.com/user-attachments/assets/7436cd58-a6f7-4f06-bc68-02de88236050)
+
+After running the Azure pipelines the screenshot for SonarQube and Azure Artifacts are as shown in the screenshot attached below.
+![image](https://github.com/user-attachments/assets/47793a9a-f571-4ea4-8a90-21337c1a9c00)
+![image](https://github.com/user-attachments/assets/9b3f8b31-820d-4465-a715-6170944cce4f)
+
