@@ -22,6 +22,17 @@ Service Connection has been created for SonarQube, Maven Azure Artifacts Feed an
 
 ![image](https://github.com/user-attachments/assets/a431f114-3be3-4648-8dab-a30982202b83)
 
+Install Argo Rollout Controller
+```
+kubectl create namespace argo-rollouts
+kubectl apply -n argo-rollouts -f https://github.com/argoproj/argo-rollouts/releases/latest/download/install.yaml
+```
+Install Argo Rollouts Kubectl plugin
+```
+curl -LO https://github.com/argoproj/argo-rollouts/releases/latest/download/kubectl-argo-rollouts-linux-amd64
+chmod +x ./kubectl-argo-rollouts-linux-amd64
+sudo mv ./kubectl-argo-rollouts-linux-amd64 /usr/local/bin/kubectl-argo-rollouts
+```
 Two Azure Pipelines has been created as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/6327f255-4bb2-4e2f-96f6-bd30d06735ae)
