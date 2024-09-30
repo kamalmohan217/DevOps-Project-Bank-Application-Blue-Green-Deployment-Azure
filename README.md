@@ -60,7 +60,13 @@ After checking when you get assured Application is working fine, changed the ser
 
 ![image](https://github.com/user-attachments/assets/05557e76-3f68-484c-8381-18ecfc08e6be)
 
-Finally promote the rollout as shown in the screenshot attached below.
+Finally Promote the rollout
+```
+kubectl get ro -n <namespace>
+kubectl argo rollouts get rollout <rollout-name> -n <namespace>
+kubectl argo rollouts promote <rollout-name> -n <namespace>
+```
+Promote the rollout as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/69e4c9ee-86bc-4159-807d-ca41d2c90145)
 
