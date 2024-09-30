@@ -18,7 +18,7 @@ Created Azure Artifacts Feed with the name of bankapp and provided contributor p
 
 ![image](https://github.com/user-attachments/assets/01cac05f-dd39-4ff6-996a-7e328a2565d3)
 
-Srrvice Connection has been created for SonarQube, Maven Azure Artifacts Feed and Docker Registry as shown in the screenshot attached below.
+Service Connection has been created for SonarQube, Maven Azure Artifacts Feed and Docker Registry as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/a431f114-3be3-4648-8dab-a30982202b83)
 
